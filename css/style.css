@@ -618,3 +618,22 @@ body {
 .footer__logo {
   padding-bottom: 22px;
 }
+
+.section {
+  margin-top: 170px;
+  text-align: center;
+  font-size: 90px;
+  line-height: 1;
+  height: 1000px;
+}
+
+.transition-fade {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  opacity: 1;
+}
+
+html.is-animating .transition-fade {
+  opacity: 0;
+}
